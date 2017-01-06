@@ -1,0 +1,55 @@
+body {
+	background-color: black;
+}
+
+h2 {
+	color: green;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#game {
+	position: relative;
+	border: solid 2px green;
+	width: 750px;
+	height: 600px;
+	margin: auto;
+}
+
+#turret {
+	position: absolute;
+	top: 295px;
+	/*left: 33px;	*/
+	width: 80px;
+	height: 10px;
+	background-color: green;
+}
+
+#weapon {
+	position: absolute;
+	top: 250px;
+	/*left: 33px;	*/
+	height: 100px;
+	width: 40px;
+	background-color: green;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#canvas-bullet {
+	width: 100%;
+	height: 100%;
+}
+
+#target {
+	display: none;
+	position: absolute;
+	background-color: red;
+	width: 10px;
+	height: 10px;
+}
+
+#message {
+	text-align: center;
+	opacity: 1.0;
+}
