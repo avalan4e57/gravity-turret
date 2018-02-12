@@ -1,0 +1,11 @@
+{
+  "name": "gravity-turret",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/avalan4e57/gravity-turret.git",
+  "author": "Igor Chernega <am.igor.chernega@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
